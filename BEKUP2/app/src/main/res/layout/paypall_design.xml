@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#007BFF"
+        android:layout_height="65dp">
+
+        <ImageView
+            android:id="@+id/gbr"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/list"
+          />
+
+        <ImageView
+            android:id="@+id/paypall"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            android:layout_toRightOf="@id/gbr"
+            />
+
+        <ImageView
+            android:id="@+id/location"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/location"
+            />
+        <ImageView
+            android:id="@+id/search"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/search"
+            android:layout_toLeftOf="@id/location"
+            />
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/refresh"
+            android:layout_toLeftOf="@id/search"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:src="@drawable/pay"
+            android:scaleType="fitCenter"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/listdata"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+</LinearLayout>
